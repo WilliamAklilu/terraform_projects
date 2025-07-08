@@ -58,9 +58,7 @@ terraform/ ├── main.tf ├── variables.tf ├── outputs.tf ├─�
 ## 🚀 Deployment Steps
 
 1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/aws-ecs-fargate-free-tier.git
-   cd aws-ecs-fargate-free-tier
+   
 
 2. Initialize Terraform:
 terraform init
