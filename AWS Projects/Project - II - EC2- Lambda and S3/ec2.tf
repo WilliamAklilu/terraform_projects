@@ -23,7 +23,7 @@ resource "aws_instance" "ubuntu" {
   instance_type               = "t2.micro"
   subnet_id                   = aws_subnet.private.id
   vpc_security_group_ids      = [aws_security_group.ec2_sg.id]
-  key_name                    = "terraform_ec2"
+  key_name                    = "t2"  #provide SSh Key Name here
   associate_public_ip_address = false
   user_data                   = <<EOF
             #!/bin/bash
